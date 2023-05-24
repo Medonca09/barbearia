@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0%;
+
+}
+
+
+header{
+    height: 130px;
+    padding: 5px 0
+}
+
+.logo{
+    width: 20%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#dov{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    text-align: center;
+}
