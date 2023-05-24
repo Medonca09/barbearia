@@ -1,56 +1,65 @@
-<html>
-    <head>
-        <title>Informações</title>
-        <link href="css3/style3.css" rel="stylesheet">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<title>Informações</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=devide-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<link href="css3/style3.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body class="px-5">
+    <header>
         <header>
-            <header>
-                <div class="center">
-                    <div class="logo"><img src="logo/logo.png" /></div><!--logo-->
-                    <div class="Menu">
-                <a href="index.html">Inicio</a>
-                <a href="Menu.html">Menu</a>
-                <a href="Sobre.html">Sobre</a>
-                    </div><!--menu-->
-                    </div><!--center-->
+            <div class="center">
+                <div class="logo"><img src="logo/logo.png" /></div><!--logo-->
+                <div class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="Menu.html">Menu</a>
+                    <a href="Sobre.html">Sobre</a>
+                </div><!--menu-->
+            </div><!--center-->
         </header>
-        <h1>Preços dos Cortes:</h1>
 
-        <img src="imgsobre/punho.jpg" whidth="150" align="right">
-
-
-        <br>
-        
-        <div class="container">
-            <table>
-                 <thead>
-                     <tr>
-                        <th>Modelos</th>
-                         <th>Tipos de Corte</th>
-                         <th>Preços</th>
+        <div class="d-flex">
+            
+            <div class="w-100">
+                <h1>Preços dos Cortes:</h1>
+                
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Modelos</th>
+                            <th>Tipos de Corte</th>
+                            <th>Preços</th>
                         </tr>
                     </thead>
                     <tbody>
-
+    
                         <tr>
                             <td>01</td>
                             <td>Corte na Maquina</td>
                             <td>25 Reais</td>
                         </tr>
-
+    
                         <tr>
                             <td>02</td>
                             <td>Corte na Tesoura</td>
                             <td>20 Reais</td>
                         </tr>
-
+    
                         <tr>
                             <td>03</td>
                             <td>Barba</td>
                             <td>25 Reais</td>
                         </tr>
-
+    
                         <tr>
                             <td>04</td>
                             <td>Cabelo e Barba</td>
@@ -64,7 +73,12 @@
                     </tbody>
                 </table>
 
-                <br><br>
+            </div>
+            
+            <img src="imgsobre/punho.jpg" whidth="150" class="ml-5">
+
+        </div>
+        <br><br>
 
         <h1>Horários:</h1>
 
@@ -75,13 +89,26 @@
         <p>Sábado: Das 10:00 às 14:00</p>
         <p>OBS: NÃO TRABALHAMOS AOS DOMINGOS E FERIADOS</p>
 
-        <br><br><br>
+        <br><br>
 
         <h1>Localização</h1>
         <br>
-        <p>Estamos localizados na segunda torre do JK Shopping<br>
-        terceiro andar salão 310</p>
-        <a href="https://www.google.com/maps/place/JK+Shopping/@-15.809667,-48.0960776,17z/data=!3m1!4b1!4m5!3m4!1s0x935bccc77f7d7197:0xc44eda07a6e73937!8m2!3d-15.809667!4d-48.0938889?hl=pt-BR">Localização</a> 
-        <br><br><br>
-    </body>
+        <p>Estamos localizados na segunda torre do JK Shopping, terceiro andar salão 310</p>
+        
+        <br><br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.8917324958616!2d-48.0964638255621!3d-15.809661823329789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bccc77f7d7197%3A0xc44eda07a6e73937!2sJK%20Shopping!5e0!3m2!1sen!2sbr!4v1684932327413!5m2!1sen!2sbr" width="100%" height="200" frameborder = "0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+            integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+            crossorigin="anonymous"></script>
+</body>
+
 </html>

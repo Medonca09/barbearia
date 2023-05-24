@@ -2,16 +2,20 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
 }
 
 .center{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2%;
-
 }
 
 
@@ -25,9 +29,10 @@ header{
 }
 
 .menu{
-    padding-top: 30px;
+    /* padding-top: 30px; */
     width: 50%;
     text-align: right;
+    align-self: center;
 }
 
 .menu a{
